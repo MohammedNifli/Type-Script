@@ -1,2 +1,10 @@
-let user ={name:"Mohammed Nifli ap", ge:10}
-console.log(user.name)
+function xy(name:string, hi: boolean): void {
+    if (hi) {
+        console.log(`Hello, ${name}!`);
+    } else {
+        console.log(`Goodbye, ${name}.`);
+    }
+}
+
+xy("", false);
+export{}
