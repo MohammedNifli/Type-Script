@@ -49,4 +49,6 @@
 
  const data2:string[]=["1","2","3"];
 
+   const data3:(string | number| boolean)[] =["fy",1,"l",true];
+
 
