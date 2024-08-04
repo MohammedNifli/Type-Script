@@ -20,3 +20,33 @@
  Nifli={name:"Nilfi",id:12423,role:"admin"}
 
  console.log(Nifli)
+
+
+
+
+
+ //function parameter
+
+
+ function getDbid(id: number|string){
+    if(typeof id==="string"){
+        id.toLowerCase()
+    }
+   
+   
+
+ }
+
+ getDbid(3)
+ getDbid("3")
+
+
+
+
+ //array
+
+ const data:number[]=[12,3,5,5]
+
+ const data2:string[]=["1","2","3"];
+
+
